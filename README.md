@@ -1,6 +1,7 @@
 ## setup an auto-sklearn environment with conda
 
-Compared to a pip virtual env, a conda environment has the advantage that you can install python packages AND packages for other languages within one virtual environment. Furthermore, some packages are solely available for conda and some only for pip. With creating a conda environment you can install and use both package manager (pip and conda).
+### General info to conda vs pip
+Compared to a pip virtual env, a conda environment has the advantage that you can install python packages AND packages for other languages within one virtual environment. Furthermore, some packages are solely available for conda and some only for pip. By creating a conda environment you can install and use both package manager (pip and conda).
 Pip is preinstalled in conda environments, so you don’t need to install it
 
 
