@@ -5,7 +5,12 @@ Compared to a pip virtual env, a conda environment has the advantage that you ca
 Pip is preinstalled in conda environments, so you don’t need to install it
 
 
-Set up your conda environment.
+### Set up your conda environment
+Before you can create a conda environment you need to install miniconda on your system. https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+The following commands applies to Linux systems. I don't have any experience with conda on Windows.
+
+If you have installed miniconda, you can create your virtual environment with the following command:
 ```
 $ conda create --name myenv python=3.7 (or higher version)  
 ```  
